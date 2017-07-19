@@ -34,15 +34,15 @@ def grade(num)
 end
 
 def sort
-  @sort = {}
+
 @roster.each do |key, value|
-   @sort[key] = value.sort
+   @roster[key] = value.sort
 
   ## binding.pry
 
-  end
+end
 ##binding.pry
-@sort
+
 end
 
 
